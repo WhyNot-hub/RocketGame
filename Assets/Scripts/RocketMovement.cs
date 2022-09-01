@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class RocketMovement : MonoBehaviour
 {
@@ -43,7 +44,7 @@ public class RocketMovement : MonoBehaviour
     public void ProcessThrust()
     {
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) || MobileController.Thrusting == true)
 
         {
             Thrusting();
@@ -73,7 +74,7 @@ public class RocketMovement : MonoBehaviour
 
     void ProcessRotation()
     {
-        if (Input.GetKey(KeyCode.A) && !IsGrouded())
+        if (Input.GetKey(KeyCode.A) && !IsGrouded() || MobileController.Left && !IsGrouded())
         {
             ApplyRotation(rotation);
             if (!LeftThrust.isPlaying)
@@ -82,7 +83,7 @@ public class RocketMovement : MonoBehaviour
             }
         }
 
-        else if (Input.GetKey(KeyCode.D) && !IsGrouded())
+        else if (Input.GetKey(KeyCode.D) && !IsGrouded() || MobileController.Right && !IsGrouded())
         {
             ApplyRotation(-rotation);
             if (!RightThrust.isPlaying)

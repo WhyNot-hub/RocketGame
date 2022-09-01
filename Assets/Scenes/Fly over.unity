@@ -1709,9 +1709,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 568271682}
-          m_TargetAssemblyTypeName: RocketMovement, Assembly-CSharp
-          m_MethodName: ProcessThrust
+        - m_Target: {fileID: 467083217}
+          m_TargetAssemblyTypeName: MobileController, Assembly-CSharp
+          m_MethodName: ClickDown
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1725,9 +1725,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 568271682}
-          m_TargetAssemblyTypeName: RocketMovement, Assembly-CSharp
-          m_MethodName: ProcessThrust
+        - m_Target: {fileID: 467083217}
+          m_TargetAssemblyTypeName: MobileController, Assembly-CSharp
+          m_MethodName: ClickUp
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2152,6 +2152,7 @@ GameObject:
   - component: {fileID: 467083215}
   - component: {fileID: 467083214}
   - component: {fileID: 467083213}
+  - component: {fileID: 467083217}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2243,6 +2244,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &467083217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467083212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f7fe011fc7492b4cbda8eff7bebebe9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &469041891 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8374553461801294606, guid: 3244df6ce771d224fb4c0f0287dac789, type: 3}
@@ -2623,17 +2636,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1727275412764003498, guid: 3a21798939b28ad48a625ea26c37474d, type: 3}
   m_PrefabInstance: {fileID: 4437741134124941173}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &568271682 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1899409663, guid: 3a21798939b28ad48a625ea26c37474d, type: 3}
-  m_PrefabInstance: {fileID: 4437741134124941173}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568271681}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d96d6c1af0b03fb4abbadbb7cd36e485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &574240598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6033,7 +6035,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.33670035, y: 1}
+    m_SensorSize: {x: 1.973064, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
