@@ -18,9 +18,6 @@ public class RocketMovement : MonoBehaviour
 
     [SerializeField] CapsuleCollider col;
     [SerializeField] LayerMask WalkingGround;
-    [SerializeField] Button left;
-    [SerializeField] Button right;
-    [SerializeField] Button thrust;
 
     Rigidbody rb;
     AudioSource audioSource;
