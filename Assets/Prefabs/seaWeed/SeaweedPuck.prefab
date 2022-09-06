@@ -50,7 +50,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7620132722788790426}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4073d99816e06394eb1a225937569b8c, type: 2}
   m_CullingMode: 0
@@ -69,7 +69,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7620132722871416487}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4073d99816e06394eb1a225937569b8c, type: 2}
   m_CullingMode: 0
@@ -88,7 +88,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7620132722989861353}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4073d99816e06394eb1a225937569b8c, type: 2}
   m_CullingMode: 0
@@ -107,7 +107,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7620132723000851055}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4073d99816e06394eb1a225937569b8c, type: 2}
   m_CullingMode: 0
@@ -126,7 +126,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7620132723105629741}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4073d99816e06394eb1a225937569b8c, type: 2}
   m_CullingMode: 0
@@ -145,7 +145,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7620132723526275119}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4073d99816e06394eb1a225937569b8c, type: 2}
   m_CullingMode: 0
@@ -164,7 +164,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7620132723631481583}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4073d99816e06394eb1a225937569b8c, type: 2}
   m_CullingMode: 0
@@ -183,7 +183,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7620132723705358989}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4073d99816e06394eb1a225937569b8c, type: 2}
   m_CullingMode: 0
@@ -202,7 +202,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7620132723737886648}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4073d99816e06394eb1a225937569b8c, type: 2}
   m_CullingMode: 0
@@ -221,7 +221,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7620132724373068254}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4073d99816e06394eb1a225937569b8c, type: 2}
   m_CullingMode: 0
@@ -240,7 +240,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7620132724460968173}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4073d99816e06394eb1a225937569b8c, type: 2}
   m_CullingMode: 0
@@ -259,7 +259,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7620132724478624622}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4073d99816e06394eb1a225937569b8c, type: 2}
   m_CullingMode: 0
@@ -336,6 +336,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
       propertyPath: m_Name
       value: seaWeed (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7205140776170859923, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
@@ -416,6 +420,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: seaWeed (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7205140776170859923, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
 --- !u!4 &7101040792915974612 stripped
@@ -482,6 +490,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
       propertyPath: m_Name
       value: seaWeed (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7205140776170859923, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
@@ -562,6 +574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: seaWeed (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7205140776170859923, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
 --- !u!1 &7620132723631481583 stripped
@@ -628,6 +644,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
       propertyPath: m_Name
       value: seaWeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 7205140776170859923, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
@@ -708,6 +728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: seaWeed (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7205140776170859923, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
 --- !u!4 &7101040792441562370 stripped
@@ -787,6 +811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: seaWeed (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7205140776170859923, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
 --- !u!4 &7101040792100854935 stripped
@@ -854,6 +882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: seaWeed (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7205140776170859923, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
 --- !u!4 &7101040791714089621 stripped
@@ -920,6 +952,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
       propertyPath: m_Name
       value: seaWeed (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7205140776170859923, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
@@ -1000,6 +1036,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: seaWeed (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7205140776170859923, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
 --- !u!1 &7620132722989861353 stripped
@@ -1079,6 +1119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: seaWeed (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7205140776170859923, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
 --- !u!1 &7620132723000851055 stripped
@@ -1145,6 +1189,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
       propertyPath: m_Name
       value: seaWeed (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7205140776170859923, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ed8f623bf2902b48be09027df053edf, type: 3}

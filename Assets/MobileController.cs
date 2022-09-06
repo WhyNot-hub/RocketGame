@@ -8,6 +8,16 @@ public class MobileController : MonoBehaviour
     public static bool Right;
     public static bool Left;
 
+    public static int ScreenWidth;
+    public static int ScreenHeight;
+
+    private void Start()
+    {
+        ScreenHeight = Display.main.systemHeight;
+        ScreenWidth = Display.main.systemWidth;
+        Screen.SetResolution(ScreenWidth, ScreenHeight, true);
+    }
+
     public void ClickDown()
     {
         Thrusting = true;
