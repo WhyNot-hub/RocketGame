@@ -5263,7 +5263,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.33333334, y: 1}
+    m_SensorSize: {x: 2.090909, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -5608,6 +5608,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a21798939b28ad48a625ea26c37474d, type: 3}
+--- !u!1 &4437741134124941174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1727275412764003498, guid: 3a21798939b28ad48a625ea26c37474d, type: 3}
+  m_PrefabInstance: {fileID: 4437741134124941173}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5605573737260309571
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5615,6 +5620,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4147553659475445035, guid: ea512d4ab0897764198436f40d725d20, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 4437741134124941174}
     - target: {fileID: 4687005092734600053, guid: ea512d4ab0897764198436f40d725d20, type: 3}
       propertyPath: m_Name
       value: startStation
@@ -5802,6 +5811,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 591174411833242885, guid: 551c7f8885f297643a180afb453d9916, type: 3}
+      propertyPath: field of view
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 591174411833242888, guid: 551c7f8885f297643a180afb453d9916, type: 3}
       propertyPath: m_RootOrder
       value: 8

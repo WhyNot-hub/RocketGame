@@ -32,7 +32,7 @@ public class RocketMovement : MonoBehaviour
 
     
 
-    void Update()
+    void FixedUpdate()
     {
         ProcessThrust();
         ProcessRotation();
