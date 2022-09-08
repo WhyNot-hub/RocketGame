@@ -1592,6 +1592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: eyePlantRigged2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4308365897371916433, guid: 9bdd3dbce60be04459142943c6546fbb, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4341710325192987954, guid: 9bdd3dbce60be04459142943c6546fbb, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6139,6 +6143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: eyePlantRigged2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4308365897371916433, guid: 9bdd3dbce60be04459142943c6546fbb, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4341710325192987954, guid: 9bdd3dbce60be04459142943c6546fbb, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -6254,7 +6262,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.090909, y: 1}
+    m_SensorSize: {x: 1.8922559, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

@@ -14,6 +14,7 @@ public class CollisionHandler : MonoBehaviour
 
     [SerializeField] GameObject[] rocketParts;
     [SerializeField] GameObject self;
+    GameObject GameplayButtons;
 
     AudioSource audioSource;
 
@@ -27,6 +28,7 @@ public class CollisionHandler : MonoBehaviour
 
     {
         audioSource = GetComponent<AudioSource>();
+        GameplayButtons = GameObject.Find("gameplayButtons");
     }
     void Update()
     {
@@ -66,9 +68,15 @@ public class CollisionHandler : MonoBehaviour
                 break;
             case "Finish":
                 StartSuccessSequence();
+                GameplayButtons.SetActive(false);
+                MobileController.Thrusting = false;
+                Handheld.Vibrate();
                 break;
             default:
                 StartCrashSequence();
+                GameplayButtons.SetActive(false);
+                MobileController.Thrusting = false;
+                Handheld.Vibrate();
                 break;
         }
     }
