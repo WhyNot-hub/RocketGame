@@ -14,6 +14,7 @@ public class MobileController : MonoBehaviour
 
     public static AndroidJavaObject vibrator;
     public static bool vibrCarout;
+    public static bool vibrationOn;
 
     private void Start()
     {
@@ -24,13 +25,25 @@ public class MobileController : MonoBehaviour
 
     public void ClickDown()
     {
-        Thrusting = true;
-        if (vibrCarout == false)
+        //Thrusting = true;
+
+        if (vibrationOn && vibrCarout == false)
         {
+            Thrusting = true;
             StartCoroutine(vibration());
+        }
+        else
+        {
+            Thrusting = true;
         }
 
     }
+    public void vibrationThrust()
+    {
+        vibrationOn = !vibrationOn;
+        Debug.Log(vibrationOn);
+    }
+
     public void ClickUp()
     {
         StopAllCoroutines();

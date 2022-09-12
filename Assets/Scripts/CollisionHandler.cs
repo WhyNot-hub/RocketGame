@@ -7,6 +7,7 @@ public class CollisionHandler : MonoBehaviour
     [SerializeField] AudioClip finishLevel;
     [SerializeField] AudioClip secretSound;
     [SerializeField] AudioClip crashSound;
+    [SerializeField] Animator anim;
 
     [SerializeField] ParticleSystem successParticles;
     [SerializeField] ParticleSystem crashParticles;
@@ -14,7 +15,7 @@ public class CollisionHandler : MonoBehaviour
 
     [SerializeField] GameObject[] rocketParts;
     [SerializeField] GameObject self;
-    GameObject GameplayButtons;
+    GameObject ButtonAcelerate;
 
     AudioSource audioSource;
 
@@ -28,7 +29,7 @@ public class CollisionHandler : MonoBehaviour
 
     {
         audioSource = GetComponent<AudioSource>();
-        GameplayButtons = GameObject.Find("gameplayButtons");
+        ButtonAcelerate = GameObject.Find("ButtonAccelerate");
     }
     void Update()
     {
@@ -68,13 +69,13 @@ public class CollisionHandler : MonoBehaviour
                 break;
             case "Finish":
                 StartSuccessSequence();
-                GameplayButtons.SetActive(false);
+                ButtonAcelerate.SetActive(false);
                 MobileController.Thrusting = false;
                 Handheld.Vibrate();
                 break;
             default:
                 StartCrashSequence();
-                GameplayButtons.SetActive(false);
+                ButtonAcelerate.SetActive(false);
                 MobileController.Thrusting = false;
                 Handheld.Vibrate();
                 break;
@@ -98,7 +99,7 @@ public class CollisionHandler : MonoBehaviour
     }
     void StartCrashSequence()
     {
-        
+        anim.SetTrigger("boom");
         {
         
         isTransitioning = true;

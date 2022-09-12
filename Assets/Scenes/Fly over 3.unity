@@ -1481,7 +1481,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bc39696dde92e1d46aa20376eae3061f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f04a8e6abbb6413459a6ed0afa81dff9, type: 2}
+      objectReference: {fileID: 2100000, guid: 62540b44a44fd814abee1113f66fce8a, type: 2}
     - target: {fileID: 919132149155446097, guid: bc39696dde92e1d46aa20376eae3061f, type: 3}
       propertyPath: m_Name
       value: Rock (23)
@@ -3597,7 +3597,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bc39696dde92e1d46aa20376eae3061f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e884b49339beff74b8079dcd876eddd3, type: 2}
+      objectReference: {fileID: 2100000, guid: 62540b44a44fd814abee1113f66fce8a, type: 2}
     - target: {fileID: 919132149155446097, guid: bc39696dde92e1d46aa20376eae3061f, type: 3}
       propertyPath: m_Name
       value: Rock (7)
@@ -5263,7 +5263,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.090909, y: 1}
+    m_SensorSize: {x: 2.0858586, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -5471,7 +5471,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bc39696dde92e1d46aa20376eae3061f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e884b49339beff74b8079dcd876eddd3, type: 2}
+      objectReference: {fileID: 2100000, guid: 79f2dbbf2f80d2e4a832a26e1715f12c, type: 2}
     - target: {fileID: 919132149155446097, guid: bc39696dde92e1d46aa20376eae3061f, type: 3}
       propertyPath: m_Name
       value: Rock (40)
