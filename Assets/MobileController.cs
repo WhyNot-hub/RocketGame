@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MobileController : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class MobileController : MonoBehaviour
 
     public static int ScreenWidth;
     public static int ScreenHeight;
-
+    [SerializeField] Text resText;
 
     public static AndroidJavaObject vibrator;
     public static bool vibrCarout;
@@ -21,6 +22,7 @@ public class MobileController : MonoBehaviour
         ScreenHeight = Display.main.systemHeight - (Display.main.systemHeight /3);
         ScreenWidth = Display.main.systemWidth - (Display.main.systemWidth / 3);
         Screen.SetResolution(ScreenWidth, ScreenHeight, true);
+        resText.text = "ScreenRes: " + ScreenHeight.ToString() + "X" + ScreenWidth.ToString();
     }
 
     public void ClickDown()
