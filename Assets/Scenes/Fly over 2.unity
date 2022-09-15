@@ -2297,6 +2297,71 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc39696dde92e1d46aa20376eae3061f, type: 3}
+--- !u!1001 &758311142
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1410223289886740421, guid: 586328badf796a846a5ecd9c351e148d, type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410223289886740421, guid: 586328badf796a846a5ecd9c351e148d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.847819
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410223289886740421, guid: 586328badf796a846a5ecd9c351e148d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.31355476
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410223289886740421, guid: 586328badf796a846a5ecd9c351e148d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.202217
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410223289886740421, guid: 586328badf796a846a5ecd9c351e148d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410223289886740421, guid: 586328badf796a846a5ecd9c351e148d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410223289886740421, guid: 586328badf796a846a5ecd9c351e148d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410223289886740421, guid: 586328badf796a846a5ecd9c351e148d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410223289886740421, guid: 586328badf796a846a5ecd9c351e148d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410223289886740421, guid: 586328badf796a846a5ecd9c351e148d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410223289886740421, guid: 586328badf796a846a5ecd9c351e148d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410223289886740422, guid: 586328badf796a846a5ecd9c351e148d, type: 3}
+      propertyPath: NetworkConfig.PlayerPrefab
+      value: 
+      objectReference: {fileID: 4437741134124941174}
+    - target: {fileID: 1410223289886740422, guid: 586328badf796a846a5ecd9c351e148d, type: 3}
+      propertyPath: NetworkConfig.NetworkPrefabs.Array.data[0].Prefab
+      value: 
+      objectReference: {fileID: 4437741134124941174}
+    - target: {fileID: 1410223289886740423, guid: 586328badf796a846a5ecd9c351e148d, type: 3}
+      propertyPath: m_Name
+      value: NetworkManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 586328badf796a846a5ecd9c351e148d, type: 3}
 --- !u!4 &816111051 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 470423504854424223, guid: 4ebd4812dab05964dbd9877f483fec7d, type: 3}
@@ -6000,7 +6065,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8922559, y: 1}
+    m_SensorSize: {x: 2.1192307, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -6144,6 +6209,10 @@ PrefabInstance:
     - target: {fileID: 1727275412764003498, guid: 3a21798939b28ad48a625ea26c37474d, type: 3}
       propertyPath: m_Name
       value: Rocket
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379725387133867357, guid: 3a21798939b28ad48a625ea26c37474d, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 955710747
       objectReference: {fileID: 0}
     - target: {fileID: 4447103341351762230, guid: 3a21798939b28ad48a625ea26c37474d, type: 3}
       propertyPath: m_RootOrder
