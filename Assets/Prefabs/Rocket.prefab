@@ -5049,7 +5049,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1462074004372130146}
   m_LocalRotation: {x: 1, y: -0, z: -0, w: -0.00000008940697}
-  m_LocalPosition: {x: 0, y: 0.0143, z: -0.00697}
+  m_LocalPosition: {x: 0.0063, y: 0.022, z: -0.021}
   m_LocalScale: {x: 0.026928945, y: 0.02692895, z: 0.02774963}
   m_Children: []
   m_Father: {fileID: 5358508555995544856}
@@ -5068,7 +5068,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.3820755, g: 0.5338122, b: 1, a: 1}
   m_Intensity: 6.34
-  m_Range: 2.4
+  m_Range: 3.46
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -6113,7 +6113,7 @@ PrefabInstance:
     - target: {fileID: 199485447430560304, guid: ab79a37535b979f48b6de56e3a0a5cb0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c1768603516c5684f95d3912a32a981c, type: 2}
+      objectReference: {fileID: 2100000, guid: c595d2b6a0372c944b0dea42950628e6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab79a37535b979f48b6de56e3a0a5cb0, type: 3}
 --- !u!198 &1646832888431638526 stripped
