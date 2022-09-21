@@ -17,13 +17,42 @@ public class MobileController : MonoBehaviour
     public static bool vibrCarout;
     public static bool vibrationOn;
 
+    [SerializeField] GameObject menuMenu;
+
+    //Resolution Change bools
+    public static bool LowRes = false;
+    public static bool HiRes = false;
+    public static bool NormRes = !false;
+   // GameObject postProcess;
+
     private void Start()
     {
-        ScreenHeight = Display.main.systemHeight - (Display.main.systemHeight /3);
-        ScreenWidth = Display.main.systemWidth - (Display.main.systemWidth / 3);
-        Screen.SetResolution(ScreenWidth, ScreenHeight, true);
+        //postProcess = GameObject.Find("postProcess");
+        if (LowRes)
+        {
+            ScreenHeight = Display.main.systemHeight  / 2;
+            ScreenWidth = Display.main.systemWidth  / 2;
+            Screen.SetResolution(ScreenWidth, ScreenHeight, true);
+           // postProcess.SetActive(!true);
+        }
+        if (HiRes)
+        {
+            ScreenHeight = Display.main.systemHeight;
+            ScreenWidth = Display.main.systemWidth;
+            Screen.SetResolution(ScreenWidth, ScreenHeight, true);
+            //postProcess.SetActive(true);
+        }
+        if (NormRes)
+        {
+           ScreenHeight = Display.main.systemHeight - (Display.main.systemHeight /3);
+           ScreenWidth = Display.main.systemWidth - (Display.main.systemWidth / 3);
+           Screen.SetResolution(ScreenWidth, ScreenHeight, true);
+           // postProcess.SetActive(!true);
+        }
+
         resText.text = "ScreenRes: " + ScreenHeight.ToString() + "X" + ScreenWidth.ToString();
     }
+
 
     public void ClickDown()
     {
@@ -38,12 +67,10 @@ public class MobileController : MonoBehaviour
         {
             Thrusting = true;
         }
-
     }
     public void vibrationThrust()
     {
         vibrationOn = !vibrationOn;
-        Debug.Log(vibrationOn);
     }
 
     public void ClickUp()
@@ -68,6 +95,35 @@ public class MobileController : MonoBehaviour
     public void ClickUpRight()
     {
         Right = !true;
+    }
+
+    public void CallMenu()
+    {
+        menuMenu.SetActive(true);
+        Time.timeScale = 0;
+    }
+    public void returnTogame()
+    {
+        menuMenu.SetActive(false);
+        Time.timeScale = 1;
+    }
+    public void ResolutionLow()
+    {
+      LowRes = !false;
+      HiRes = false;
+      NormRes = false;
+}
+    public void ResolutionHi()
+    {
+        LowRes = false;
+        HiRes = !false;
+        NormRes = false;
+    }
+    public void ResolutionNorm()
+    {
+        LowRes = false;
+        HiRes = false;
+        NormRes = !false;
     }
 
     IEnumerator vibration()
